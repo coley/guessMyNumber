@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C25C20E143BD565002BCF60 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C25C20D143BD565002BCF60 /* Game.m */; };
+		6C27B8AA1589640400CF1557 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C27B8A91589640400CF1557 /* Icon.png */; };
+		6C27B8AC1589640700CF1557 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C27B8AB1589640700CF1557 /* Icon@2x.png */; };
+		6CE3A905143A797900CEEAFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE3A904143A797900CEEAFC /* UIKit.framework */; };
+		6CE3A907143A797900CEEAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE3A906143A797900CEEAFC /* Foundation.framework */; };
+		6CE3A909143A797900CEEAFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE3A908143A797900CEEAFC /* CoreGraphics.framework */; };
+		6CE3A90F143A797900CEEAFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3A90D143A797900CEEAFC /* InfoPlist.strings */; };
+		6CE3A911143A797900CEEAFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3A910143A797900CEEAFC /* main.m */; };
+		6CE3A915143A797900CEEAFC /* GuessMyNumberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3A914143A797900CEEAFC /* GuessMyNumberAppDelegate.m */; };
+		6CE3A918143A797900CEEAFC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3A916143A797900CEEAFC /* MainWindow.xib */; };
+		6CE3A91B143A797900CEEAFC /* GuessMyNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3A91A143A797900CEEAFC /* GuessMyNumberViewController.m */; };
+		6CE3A91E143A797900CEEAFC /* GuessMyNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3A91C143A797900CEEAFC /* GuessMyNumberViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C25C20C143BD565002BCF60 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6C25C20D143BD565002BCF60 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		6C27B8A91589640400CF1557 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6C27B8AB1589640700CF1557 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6CE3A900143A797900CEEAFC /* GuessMyNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessMyNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE3A904143A797900CEEAFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CE3A906143A797900CEEAFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CE3A908143A797900CEEAFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CE3A90C143A797900CEEAFC /* GuessMyNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessMyNumber-Info.plist"; sourceTree = "<group>"; };
+		6CE3A90E143A797900CEEAFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CE3A910143A797900CEEAFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE3A912143A797900CEEAFC /* GuessMyNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessMyNumber-Prefix.pch"; sourceTree = "<group>"; };
+		6CE3A913143A797900CEEAFC /* GuessMyNumberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessMyNumberAppDelegate.h; sourceTree = "<group>"; };
+		6CE3A914143A797900CEEAFC /* GuessMyNumberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessMyNumberAppDelegate.m; sourceTree = "<group>"; };
+		6CE3A917143A797900CEEAFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6CE3A919143A797900CEEAFC /* GuessMyNumberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessMyNumberViewController.h; sourceTree = "<group>"; };
+		6CE3A91A143A797900CEEAFC /* GuessMyNumberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessMyNumberViewController.m; sourceTree = "<group>"; };
+		6CE3A91D143A797900CEEAFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GuessMyNumberViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE3A8FD143A797900CEEAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3A905143A797900CEEAFC /* UIKit.framework in Frameworks */,
+				6CE3A907143A797900CEEAFC /* Foundation.framework in Frameworks */,
+				6CE3A909143A797900CEEAFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE3A8F5143A797900CEEAFC = {
+			isa = PBXGroup;
+			children = (
+				6C27B8AB1589640700CF1557 /* Icon@2x.png */,
+				6C27B8A91589640400CF1557 /* Icon.png */,
+				6CE3A90A143A797900CEEAFC /* GuessMyNumber */,
+				6CE3A903143A797900CEEAFC /* Frameworks */,
+				6CE3A901143A797900CEEAFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE3A901143A797900CEEAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3A900143A797900CEEAFC /* GuessMyNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE3A903143A797900CEEAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3A904143A797900CEEAFC /* UIKit.framework */,
+				6CE3A906143A797900CEEAFC /* Foundation.framework */,
+				6CE3A908143A797900CEEAFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE3A90A143A797900CEEAFC /* GuessMyNumber */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3A913143A797900CEEAFC /* GuessMyNumberAppDelegate.h */,
+				6CE3A914143A797900CEEAFC /* GuessMyNumberAppDelegate.m */,
+				6CE3A916143A797900CEEAFC /* MainWindow.xib */,
+				6CE3A919143A797900CEEAFC /* GuessMyNumberViewController.h */,
+				6CE3A91A143A797900CEEAFC /* GuessMyNumberViewController.m */,
+				6CE3A91C143A797900CEEAFC /* GuessMyNumberViewController.xib */,
+				6C25C20C143BD565002BCF60 /* Game.h */,
+				6C25C20D143BD565002BCF60 /* Game.m */,
+				6CE3A90B143A797900CEEAFC /* Supporting Files */,
+			);
+			path = GuessMyNumber;
+			sourceTree = "<group>";
+		};
+		6CE3A90B143A797900CEEAFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3A90C143A797900CEEAFC /* GuessMyNumber-Info.plist */,
+				6CE3A90D143A797900CEEAFC /* InfoPlist.strings */,
+				6CE3A910143A797900CEEAFC /* main.m */,
+				6CE3A912143A797900CEEAFC /* GuessMyNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE3A8FF143A797900CEEAFC /* GuessMyNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE3A921143A797900CEEAFC /* Build configuration list for PBXNativeTarget "GuessMyNumber" */;
+			buildPhases = (
+				6CE3A8FC143A797900CEEAFC /* Sources */,
+				6CE3A8FD143A797900CEEAFC /* Frameworks */,
+				6CE3A8FE143A797900CEEAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessMyNumber;
+			productName = GuessMyNumber;
+			productReference = 6CE3A900143A797900CEEAFC /* GuessMyNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE3A8F7143A797900CEEAFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6CE3A8FA143A797900CEEAFC /* Build configuration list for PBXProject "GuessMyNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CE3A8F5143A797900CEEAFC;
+			productRefGroup = 6CE3A901143A797900CEEAFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE3A8FF143A797900CEEAFC /* GuessMyNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE3A8FE143A797900CEEAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3A90F143A797900CEEAFC /* InfoPlist.strings in Resources */,
+				6CE3A918143A797900CEEAFC /* MainWindow.xib in Resources */,
+				6CE3A91E143A797900CEEAFC /* GuessMyNumberViewController.xib in Resources */,
+				6C27B8AA1589640400CF1557 /* Icon.png in Resources */,
+				6C27B8AC1589640700CF1557 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE3A8FC143A797900CEEAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE3A911143A797900CEEAFC /* main.m in Sources */,
+				6CE3A915143A797900CEEAFC /* GuessMyNumberAppDelegate.m in Sources */,
+				6CE3A91B143A797900CEEAFC /* GuessMyNumberViewController.m in Sources */,
+				6C25C20E143BD565002BCF60 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CE3A90D143A797900CEEAFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE3A90E143A797900CEEAFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CE3A916143A797900CEEAFC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE3A917143A797900CEEAFC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6CE3A91C143A797900CEEAFC /* GuessMyNumberViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE3A91D143A797900CEEAFC /* en */,
+			);
+			name = GuessMyNumberViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE3A91F143A797900CEEAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CE3A920143A797900CEEAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE3A922143A797900CEEAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessMyNumber/GuessMyNumber-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GuessMyNumber/GuessMyNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CE3A923143A797900CEEAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessMyNumber/GuessMyNumber-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GuessMyNumber/GuessMyNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE3A8FA143A797900CEEAFC /* Build configuration list for PBXProject "GuessMyNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE3A91F143A797900CEEAFC /* Debug */,
+				6CE3A920143A797900CEEAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE3A921143A797900CEEAFC /* Build configuration list for PBXNativeTarget "GuessMyNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE3A922143A797900CEEAFC /* Debug */,
+				6CE3A923143A797900CEEAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE3A8F7143A797900CEEAFC /* Project object */;
+}
